@@ -2,7 +2,7 @@
     "name":"XFCE",
     "description":"DEBIAN XFCE",
     "keywords":[
-        "linux",
+        "linux"
     ],
     "repository":"https://github.com",
     "stack":"container",
