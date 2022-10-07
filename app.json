@@ -1,17 +1,10 @@
 {
-    "name":"LINUX(DEBIAN) XFCE HEROKU",
+    "name":"XFCE",
     "description":"DEBIAN XFCE",
     "keywords":[
         "linux",
-        "vps",
-        "desktop",
-        "xfce",
-        "vnc",
-        "server",
-        "debian",
-        "noVNC"
     ],
-    "repository":"https://github.com/krypton-byte/xfce4-noVNC",
+    "repository":"https://github.com",
     "stack":"container",
     "env":{
         "NGROK_APIKEY":{
