@@ -2,7 +2,7 @@ from parrotsec/core:latest
 RUN set -ex;\
     apt-get update;\
     apt-mark hold keyboard-configuration;\
-    apt-get install python3-dev git tightvncserver expect websockify qemu-system-x86 xfce4 dbus-x11 -y
+    apt-get install python3 python3-pip git tightvncserver expect websockify qemu-system-x86 xfce4 dbus-x11 -y
 ENV DISPLAY=:0
 RUN pip3 install websockify pyngrok
 RUN apt-get install xfce4-terminal htop tmate tmux -y
