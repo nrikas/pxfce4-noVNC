@@ -1,4 +1,4 @@
-from python:3.9
+from parrotsec/core:latest
 RUN set -ex;\
     apt-get update;\
     apt-mark hold keyboard-configuration;\
